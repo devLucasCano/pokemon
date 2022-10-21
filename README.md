@@ -1,4 +1,4 @@
-# Pokémon - Front End.
+# Pokémon - Via Pokémon API.
 
 <hr>
 
