@@ -1,7 +1,7 @@
 .tag {
   display: flex;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 244px;
   max-width: 12.1rem;
   padding: 6px 4px;
@@ -10,7 +10,7 @@
       background-color: rgba(63, 104, 186, 0.15);
     }
     span {
-      color: #3F67BA;
+      color: #3f67ba;
     }
   }
   .icon {
@@ -25,12 +25,12 @@
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 150%;
-    color: #C20001;
+    color: #c20001;
   }
 }
 
 .search {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 122px;
   width: 100%;
   max-width: 40.3rem;
@@ -40,15 +40,15 @@
   justify-content: space-between;
   padding-left: 2.5rem;
   padding-right: 0.7rem;
-  input[type=text] {
+  input[type="text"] {
     border: 0;
     outline: none;
     width: 80%;
     font-size: 1.5rem;
     line-height: 150%;
-    color: #A0AFBA;
+    color: #a0afba;
     &::placeholder {
-      color: #A0AFBA;
+      color: #a0afba;
     }
   }
   button {
@@ -57,9 +57,9 @@
     background-color: rgba(158, 185, 225, 0.1);
     border-radius: 50%;
     border: 1px solid transparent;
-    transition: border-color .3s;
+    transition: border-color 0.3s;
     &:hover {
-      border-color:#3E75C3;
+      border-color: #3e75c3;
     }
     @include centerTotalFlex;
   }
@@ -70,7 +70,7 @@
   align-items: center;
   filter: grayscale(100%);
   opacity: 0.6;
-  transition: all .3s;
+  transition: all 0.3s;
   &:hover,
   &.active {
     filter: grayscale(0%);
@@ -114,7 +114,7 @@
   }
   &.electric {
     span {
-      color: #EED967;
+      color: #eed967;
     }
   }
   &.fairy {
@@ -193,7 +193,7 @@
   box-shadow: 0px 10px 51px -5px rgba(183, 189, 193, 0.3);
   border-radius: 12px;
   z-index: 1;
-  transition: all .3s;
+  transition: all 0.3s;
   &:hover {
     transform: scale(1.02);
     box-shadow: 0px 12px 40px -5px rgba(90, 96, 100, 0.3);
@@ -356,7 +356,7 @@
         font-weight: 500;
         font-size: 1.3rem;
         line-height: 150%;
-        color: #7A7D80;
+        color: #7a7d80;
         margin-bottom: 6px;
       }
     }
@@ -364,7 +364,7 @@
       margin-bottom: 1rem;
     }
   }
-  @media(max-width: 1200px) {
+  @media (max-width: 1200px) {
     max-width: 100%;
   }
 }
@@ -377,7 +377,7 @@
   font-weight: 600;
   font-size: 1.3rem;
   letter-spacing: -0.01em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   &.bug {
     color: var(--type-bug);
     background-color: rgba(156, 186, 72, 0.1);
@@ -416,7 +416,7 @@
   }
   &.poison {
     color: var(--type-poison);
-    background-color: rgba(172, 106, 202, 0.1)
+    background-color: rgba(172, 106, 202, 0.1);
   }
   &.psychic {
     color: var(--type-psychic);
@@ -456,12 +456,12 @@
   background-color: rgba(63, 93, 179, 0.1);
   border-radius: 6px;
   padding: 1.4rem 2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 1.4rem;
   letter-spacing: -0.01em;
   color: var(--blue-primary);
-  transition: all .3s;
+  transition: all 0.3s;
   &:hover {
     background-color: var(--blue-primary);
     color: #ffffff;
@@ -480,7 +480,7 @@
   z-index: 2022;
   opacity: 0;
   pointer-events: none;
-  transition: all .3s;
+  transition: all 0.3s;
   &[type-pokemon-modal="fire"] {
     .box {
       .left-container {
@@ -624,17 +624,17 @@
     background-color: #ffffff;
     z-index: 1;
     box-shadow: 0px 10px 40px rgba(13, 12, 71, 0.05);
-    border-radius: 16px;  
+    border-radius: 16px;
     display: flex;
     transform: translateY(4rem);
-    transition: transform .3s ease-in;
+    transition: transform 0.3s ease-in;
     .close {
       position: absolute;
       top: -4.4rem;
       right: 0;
       width: 3.6rem;
       height: 3.6rem;
-      background: #FFFFFF;
+      background: #ffffff;
       border-radius: 8px;
       @include centerTotalFlex();
     }
@@ -651,7 +651,7 @@
         right: 2rem;
         width: 3.4rem;
         height: 3.4rem;
-        background-color: #FFFFFF;
+        background-color: #ffffff;
         border-radius: 50%;
         @include centerTotalFlex();
       }
@@ -673,19 +673,19 @@
         align-items: flex-end;
         margin-bottom: 1rem;
         h2 {
-          font-family: 'Montserrat', sans-serif;
+          font-family: "Montserrat", sans-serif;
           font-weight: bold;
           font-size: 2.8rem;
           line-height: 3.4rem;
           letter-spacing: -0.01em;
-          color: #2F3133;
+          color: #2f3133;
         }
         span {
-          font-family: 'Montserrat', sans-serif;
+          font-family: "Montserrat", sans-serif;
           font-size: 1.6rem;
           line-height: 2rem;
           letter-spacing: -0.01em;
-          color: #7A7D80;
+          color: #7a7d80;
           position: relative;
           top: -3px;
           margin-left: 8px;
@@ -716,7 +716,7 @@
             font-size: 1.3rem;
             line-height: 1.6rem;
             letter-spacing: -0.01em;
-            color: #7A7D80;
+            color: #7a7d80;
             margin-bottom: 0.4rem;
           }
           strong {
@@ -724,7 +724,7 @@
             font-size: 1.4rem;
             line-height: 1.7rem;
             letter-spacing: -0.01em;
-            color: #2F3133;
+            color: #2f3133;
           }
         }
       }
@@ -735,7 +735,7 @@
           font-size: 1.3rem;
           line-height: 1.6rem;
           letter-spacing: -0.01em;
-          color: #4D5053;
+          color: #4d5053;
           margin-bottom: 1.6rem;
         }
         ul {
@@ -757,7 +757,7 @@
           font-size: 1.3rem;
           line-height: 1.6rem;
           letter-spacing: -0.01em;
-          color: #4D5053;
+          color: #4d5053;
           margin-bottom: 1.6rem;
         }
         .all {
@@ -772,7 +772,7 @@
               display: block;
               font-size: 1.2rem;
               line-height: 1.5rem;
-              color: #7A7D80;
+              color: #7a7d80;
               width: 6.8rem;
             }
             .bar-status {
@@ -780,7 +780,7 @@
               width: 100%;
               max-width: 28.3rem;
               height: 3px;
-              background-color: #EFF3F6;
+              background-color: #eff3f6;
               .bar {
                 position: absolute;
                 top: 0;
@@ -788,7 +788,7 @@
                 width: 56%;
                 height: 100%;
                 z-index: 0;
-                background-color: #C20001;
+                background-color: #c20001;
               }
               .separator {
                 position: absolute;
@@ -813,7 +813,7 @@
       }
     }
   }
-  @media(max-width: 560px) {
+  @media (max-width: 560px) {
     align-items: flex-end;
     .box {
       flex-direction: column;
@@ -828,7 +828,7 @@
           width: 25px;
         }
       }
-      .left-container{
+      .left-container {
         max-width: 100%;
         height: 12.5rem;
         background-size: cover;
