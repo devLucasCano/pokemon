@@ -1,6 +1,4 @@
-# Bikcraft - Front End.
-
-<img src="img/bik1.png" alt="Lucas"> <br>
+# Pokémon - Front End.
 
 <hr>
 
@@ -11,6 +9,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML 5
 - CSS 3
 - JavaScript
+- Yarn
+- SASS
+- Gulp
+- PokeApi
 
 # 🎆 Sites utilizado para o desenvolvimento
 
@@ -21,9 +23,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Você pode acessar o site pelo link abaixo:
 
-- [Bikcraft](https://lucas-bikcraft.netlify.app/) - O site está hospedado gratuitamente na Netlify
+- [Pokemon](https://pokemon-lucas.netlify.app/) - O site está hospedado gratuitamente na Netlify
 
 # 💼 Direitos
 
-- Todos os direitos reservados por André Rafael - [Origamid](https://www.origamid.com/) <br>
+- Todos os direitos reservados por William Moreira - [Codeboost](https://codeboost.com.br/) <br>
 - Feito por Lucas Cano.
