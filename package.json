@@ -9,7 +9,6 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "browser-sync": "^2.27.7",
-    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-cli": "^2.3.0",
@@ -18,5 +17,9 @@
     "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.44.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4"
   }
 }
