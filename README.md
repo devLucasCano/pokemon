@@ -1,5 +1,7 @@
 # Pokémon - Via Pokémon API.
 
+<img src="img/poke1.png" alt="Lucas"> <br>
+
 <hr>
 
 # 🎇 Tecnologias
