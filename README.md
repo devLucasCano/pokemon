@@ -1,6 +1,6 @@
 # Pokémon - Via Pokémon API.
 
-<img src="img/poke1.png" alt="Lucas"> <br>
+<img src="img/poke1.jpg" alt="Lucas"> <br>
 
 <hr>
 
